@@ -1,0 +1,129 @@
+@charset "UTF-8";
+header{
+    background-image: linear-gradient(to bottom,var(--azul_bb), var(--azul_preto));
+    padding: 30px 30px 0px 30px;  
+}
+@font-face {
+    font-family: 'myfonte';
+    src: url('fontes/idroid.otf');   
+}
+header {
+    color:#e4f5f7;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.788);
+}
+img{
+    width: 100%;
+}
+nav{
+    padding-bottom: 20px;
+}
+a:hover{
+    background-color: #112331;
+    transition-duration: 1s;
+}
+a{
+    color: #e4f5f7;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px;    
+}
+:root{
+    --azul_preto:#13293D;
+    --azul_l_preto:#006494;
+    --azul_l_verde:#247BAD;
+    --azul_bb:#1B9BE0;
+    --white:#e4f5f7;
+}
+main h1{
+    font-family: 'myfonte';
+    color: #13293D;
+    font-weight: bolder;
+}
+footer{
+    padding: 20px;
+    background-color:#13293D;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+main h2{
+    font-family: 'myfonte';
+    color: #13293D;
+    font-weight: bolder;
+}
+header h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 3em;
+    margin-bottom: 20px;  
+}
+header p{
+    max-width: 400px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: auto;   
+}
+body{
+        background-color:rgba(71, 99, 131, 0.603);             
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main {
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    background-color:var(--white);
+    text-indent: 20px;
+    line-height: 2em;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.884); 
+}
+ul{
+   list-style:inside ;
+   columns: 2;
+   list-style-type: '💤 ';
+}
+aside{
+   background-color: #6a98b1; 
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   padding: 20px;
+   border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548);
+    margin-bottom: 10px;
+}
+h3{
+    background-color: #13293D;
+    margin: -20px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+aside p{
+    margin-top: 20px;
+}
+div{
+    max-width: 800px;
+    min-width: 320px;
+    padding: 30px;
+}
+div >iframe{
+   
+     margin: auto;
+}
+iframe{
+    display: block;
+}
